@@ -1,12 +1,8 @@
 # AI 201 — Week 2 Demo: Concert Alert Agent
 
-**For instructors only.** Starter repo for the Week 2 lecture demo.
-
 ## What This Demo Does
 
 You'll build a live 3-tool agent that searches for upcoming concerts, checks ticket availability, and drafts a friend-alert text message — handling sold-out shows and missing artists gracefully along the way.
-
-Students will watch you write the two most important pieces of any agent: the tool definitions (how you describe tools to the model) and the ReAct agent loop (how the model decides what to do next).
 
 **Artists in the mock database:**
 
