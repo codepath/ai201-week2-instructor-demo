@@ -18,6 +18,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from tools import search_shows, check_tickets, draft_message
 from utils.llm import LLMClient
 

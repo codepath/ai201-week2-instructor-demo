@@ -9,7 +9,7 @@ response so the agent loop can inspect it for tool calls.
 import os
 from openai import OpenAI
 
-DEFAULT_MODEL = "meta-llama/llama-3.1-8b-instruct:free"
+DEFAULT_MODEL = "openai/gpt-oss-20b:free"
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
 
